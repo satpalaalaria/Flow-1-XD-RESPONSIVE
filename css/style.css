@@ -1,0 +1,352 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "CircularAirPro-Book";
+  src: url("06562fa8f1dc120ddaa83492acec1b10.eot"); /* IE9*/
+  src: url("06562fa8f1dc120ddaa83492acec1b10.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("06562fa8f1dc120ddaa83492acec1b10.woff2") format("woff2"),
+    /* chrome、firefox */ url("06562fa8f1dc120ddaa83492acec1b10.woff")
+      format("woff"),
+    /* chrome、firefox */ url("06562fa8f1dc120ddaa83492acec1b10.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("06562fa8f1dc120ddaa83492acec1b10.svg#CircularAirPro-Book")
+      format("svg"); /* iOS 4.1- */
+}
+
+.section {
+  height: 812pt;
+  width: 375pt;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 0.2rem 0.2rem #00000029;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+.header {
+  height: 7.6rem;
+  width: 50rem;
+  border: 0.1rem solid #ffffff;
+  display: inline-flex;
+  align-items: center;
+  border-bottom: 0.2rem solid #efefef;
+  box-shadow: 0 0.5rem 0.5rem #00000029;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+}
+
+.header-img {
+  padding-left: 2rem;
+  color: #1e201d;
+  height: 3rem;
+  width: 4.5rem;
+}
+.post {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #333333;
+  padding-left: 2rem;
+}
+
+.main-div1 {
+  display: flex;
+  padding-top: 2rem;
+  margin-left: 1.9rem;
+  margin-right: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1.5px solid #00000029;
+}
+.peragraph {
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  font-family: "Poppins" sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: #484848;
+}
+.location-name {
+  font-family: "Poppins" sans-serif;
+  font-weight: 400;
+  color: #464646;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  height: 2.3rem;
+  width: 6.8rem;
+  padding-bottom: 3rem;
+}
+.location {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1.5px solid #00000029;
+  position: relative;
+}
+.p2 {
+  font-weight: 400;
+  color: #3897f0;
+  font-size: 1.6rem;
+  height: 2.3rem;
+  width: 15rem;
+}
+.img2 {
+  position: absolute;
+  top: 6.6rem;
+  right: 1.5rem;
+  height: 1.2rem;
+  width: 1.2rem;
+  color: #c4c4c4;
+  opacity: 60%;
+  /* position: fixed; */
+}
+.p3 {
+  font-family: "Poppins" sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  color: #999999;
+}
+.categary {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1.5px solid #00000029;
+  margin-right: 2.5rem;
+}
+.category1 {
+  font-family: "CircularAirPro-Book" !important;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  color: #464646;
+  height: 1.6rem;
+  width: 5.6rem;
+}
+.entrnlpart {
+  height: 4.2rem;
+  width: 11.1rem;
+  display: flex;
+  margin-top: 2rem;
+  border-radius: 2.1rem;
+  border: 1px solid #f1f1f2;
+  background-color: #f8f8f8;
+  justify-content: center;
+  align-items: center;
+}
+.music-class {
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+}
+.music {
+  font-family: "CircularAirPro-Book" !important;
+  font-size: 1.6rem;
+  font-style: normal;
+  margin-left: 1rem;
+  height: 2rem;
+  width: 4.4rem;
+  font-weight: 300;
+  color: #484848;
+}
+.img-chnage-1 {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.change {
+  height: 2rem;
+  width: 5.6rem;
+  font-weight: 300;
+  color: #3897f0;
+  font-size: 1.4rem;
+  position: absolute;
+  top: -3rem;
+  right: 3.5rem;
+}
+.img3 {
+  height: 1.242rem;
+  width: 0.708rem;
+  color: #c4c4c4;
+  position: absolute;
+  top: -2.5rem;
+  right: 1.5rem;
+}
+.share-part {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 10rem;
+}
+.share {
+  height: 2.3rem;
+  width: 10rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #464646;
+}
+.allimage {
+  margin-top: 2rem;
+}
+.img4 {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+.img5 {
+  border-radius: 50%;
+  margin-left: 2.5rem;
+}
+.img6 {
+  border-radius: 50%;
+  margin-left: 2.5rem;
+}
+.shareto {
+  display: flex;
+}
+.facebook {
+  height: 1.4rem;
+  width: 4.8rem;
+  font-weight: 400;
+  color: #484848;
+  font-size: 1.2rem;
+}
+.insta {
+  height: 1.4rem;
+  width: 5.1rem;
+  font-weight: 400;
+  color: #484848;
+  font-size: 1.2rem;
+  margin-left: 3rem;
+}
+.twitter {
+  height: 1.4rem;
+  width: 3.2rem;
+  font-weight: 300;
+  color: #999999;
+  font-size: 1.2rem;
+  margin-left: 3rem;
+}
+.check-img1 {
+  position: relative;
+  align-items: flex-end;
+}
+.check-img1 img {
+  position: absolute;
+  bottom: -10rem;
+  right: 4rem;
+  border-radius: 50%;
+}
+
+/*********RESPONSIVE**********/
+/*for Laptop L*/
+/*BELOW TO 1400 px*/
+@media (max-width: 90em) {
+  .section {
+    height: 1200pt;
+    width: 100%;
+  }
+  .header {
+    height: 8rem;
+    width: 100%;
+  }
+}
+
+/*For Laptop*/
+/*BLEW TO 1024px*/
+@media (max-width: 64em) {
+  .section {
+    height: 1000pt;
+    width: 100%;
+  }
+  .header {
+    height: 8rem;
+    width: 100%;
+  }
+}
+
+/*For Tablet*/
+/*blow to 768px*/
+@media (max-width: 48em) {
+  .section {
+    height: 900pt;
+    width: 100%;
+  }
+  .header {
+    height: 7.8rem;
+    width: 100%;
+  }
+}
+/*For large Phone*/
+/*blow to 496px*/
+@media (max-width: 31em) {
+  .section {
+    height: 812pt;
+    width: 100%;
+  }
+  .header {
+    height: 7.6rem;
+    width: 100%;
+  }
+}
+/*for medium phone*/
+/*blow to 416px*/
+
+@media (max-width: 26em) {
+  .section {
+    height: 800pt;
+    width: 100%;
+  }
+  .header {
+    height: 7.6rem;
+    width: 100%;
+  }
+}
+/*for small phone*/
+/*blow to 368px*/
+@media (max-width: 23em) {
+  .section {
+    height: 700pt;
+    width: 100%;
+  }
+  .header {
+    height: 6.5rem;
+    width: 100%;
+  }
+}
+/*for very small phone*/
+/*blow to 300px*/
+@media (max-width: 18em) {
+  .section {
+    height: 700pt;
+    width: 100%;
+  }
+  .header {
+    height: 6rem;
+    width: 100%;
+  }
+  .peragraph {
+    font-size: 1.4rem;
+  }
+}
